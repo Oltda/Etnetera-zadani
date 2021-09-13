@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home-responsive.css">
+    <script src="https://kit.fontawesome.com/24a527e4a1.js" crossorigin="anonymous"></script>
+    <title>Etnetera | Kdo jsme</title>
+
+</head>
+<body>
+
+
+    <header class="navbar-wrap">
+        <img src="images/logo-header.jpg">
+
+        <div class="navbar">
+            <a class="nvb-link" href="">KONTAKT</a>
+            <a class="nvb-link" href="">PRÁCE U NÁS(4)</a>
+            <a class="nvb-link" href="">REFERENCE</a>
+            <a class="nvb-link" href="">CO DĚLÁME</a>  
+            <a class="nvb-link current-pg" href="">KDO JSME</a>
+            <a class="nvb-link" href="">DOMŮ</a>    
+        </div>
+
+        <div id="dropdown-menu">
+            <ul class="dropdown-ul">
+                <li>                
+                    <a class="drop-link" href="">DOMŮ</a>
+                </li>          
+                <li>
+                    <a class="drop-link current-pg" href="">KDO JSME</a>
+                </li>
+                <li>
+                    <a class="drop-link" href="">CO DĚLÁME</a>
+                </li>
+                <li>
+                    <a class="drop-link" href="">REFERENCE</a>
+                </li>
+                <li>
+                    <a class="drop-link" href="">PRÁCE U NÁS(4)</a>
+                </li>
+                <li>
+                    <a class="drop-link" href="">KONTAKT</a> 
+                </li>  
+            </ul>
+        </div>
+    </header>
+    <div onclick="showDropdown()" class="nvb-button">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    
+<div class="upper-part">
+        <div class="bg-ph"></div>
+        <h1 class="main-heading">Přidej se v Etneteře mezi kodery</h1>           
+        <div class="carousel-wrapper">
+                <div class="sld-cont">          
+                    <div class="sld-btn">
+                        <button onclick="slide('prev')" class="nextPrev"><i class="fas fa-chevron-left fa-5x"></i></button>
+                    </div>
+                        <div class="slider">
+                            <div id="slide-wrapper">
+                                <div class="slide">
+                                    <p>
+                                        Čeká tě tým mladých lidí zapálených nejen do kódování
+                                        Nejsme žádný tiše pracující tým. Rádi si s tebou během práce pokecáme, 
+                                        zajdeme na oběd nebo poradíme s problémem.
+                                    </p>
+                                </div>
+                                <div class="slide">
+                                    <p>
+                                        Pracujeme v liberálním a otevřeném prostředí bez kravat a procesních příruček. 
+                                        Inspirujeme se principy svobodné firmy, kde se zisky dělí transparentně.
+                                     
+                                    </p>
+                                </div>
+                                <div class="slide">
+                                    <p>
+                                        Rádi společně sportujeme a podporujeme se. Kopeme za jeden tým.
+                                    </p>
+                                </div>
+                            </div>                 
+                        </div>                   
+                    <div class="sld-btn btn-right">
+                        <button onclick="slide('next')" class="nextPrev btn-right"><i class="fas fa-chevron-right fa-5x"></i></button> 
+                    </div>
+                    
+                </div>
+
+                <button class="about">Vice o nas</button> 
+            </div>               
+</div>  
+
+
+<div class="main-content">   
+
+    <div class="stripe">
+        <a>PŘED 12 DNY</a>
+        <a>
+            Jiří Štěpán z Etnetera Active poodhalil 
+            zákulisí vykutálené náborové kampaně
+        </a>
+        <a>Přečíst</a>
+    </div>   
+
+    <div class="desc-wrapper">
+        <h1>Co jsme zač?</h1>
+        <p class="description">  
+            <img src="images/building.jpg">
+            
+            V roce 1997 si Martin a Vašek chtěli přivydělat při studiu ČVUT. 
+            Založili firmu a brzy s překvapením zjistili, že mohou zaměstnat i 
+            své přátele, kteří sdílí jejich znalosti a smysl pro humor. Po 20+ 
+            letech úspěšného fungování je Etnetera přední společností v
+            oblasti vývoje webových portálů a aplikací. 
+            Naším cílem je být jedničkou na českém trhu v tomto segmentu.
+            Orientujeme se na dlouhodobá partnerství a hledání jedinečných řešení 
+            s přidanou hodnotou, která vás posunou vpřed. Naše sebedůvěra
+            stojí na silném stabilním zázemí a zkušenostech z tisíce náročných projektů
+            pro klienty, kteří jsou špičkou v obory. Držíme slovo i termíny, 
+            dokážeme priznat a napravit chybu. Věříme sobě i vám.
+        </p> 
+        
+        <p class="description second">
+
+            Pracujeme v liberálním a otevřeném prostředí bez kravat a procesních příruček. 
+            Inspirujeme se principy svobodné firmy, kde se zisky dělí transparentně, 
+            týmy si určují svá vlastní pravidla a management nemá nadstandardní benefity. 
+            Rádi společně sportujeme a podporujeme se. Kopeme za jeden tým.<br><br> 
+            Není proto náhoda, že jsme se <span class="tooltip">4 roky po sobě
+                <span class="tooltiptext">Hustý, co?</span>
+            </span> umístili na třech nejvyšších příčkách v soutěži Best Employers ČR. 
+            Výsledky této studie se zakládají na názorech vlastních zaměstnanců firem a jejich motivovanosti
+        </p>
+    </div>
+
+        <div class="graph-container">
+            <h2>Navstevnost firmy</h2>
+                <div class="graph-wrap">
+                    <img class="logo" src="images/logo.jpg">
+                    <div data-time="8:00" class="bar mf ss"></div>
+                    <div data-time="8:30" class="bar bf ss"></div>
+                    <div data-time="9:00" class="bar mf rr"></div>
+                    <div data-time="9:30" class="bar mf ss"></div>
+                    <div data-time="10:00" class="bar bf ss"></div>
+                    <div data-time="10:30" class="bar mf rr"></div>
+                    <div data-time="11:00" class="bar mf ss"></div>
+                    <div data-time="11:30" class="bar bf ss"></div>
+                    <div data-time="12:00" class="bar mf rr"></div>
+                    <div data-time="12:30" class="bar mf ss"></div>
+                    <div data-time="13:00" class="bar bf ss"></div>
+                    <div data-time="13:30" class="bar mf rr"></div>
+                    <div data-time="14:00" class="bar mf ss"></div>
+                    <div data-time="14:30" class="bar bf ss"></div>
+                    <div data-time="15:00" class="bar mf rr"></div>
+                    <div data-time="15:30" class="bar mf ss"></div>
+                    <div data-time="16:00" class="bar bf ss"></div>
+                    <div data-time="16:30" class="bar mf rr"></div>
+                    <div data-time="17:00" class="bar mf ss"></div>
+                    <div data-time="17:30" class="bar bf ss"></div>
+                    <div data-time="18:00" class="bar mf rr"></div>
+                    <div data-time="18:30" class="bar mf ss"></div>
+                    <div data-time="19:00" class="bar bf ss"></div>
+                    <div data-time="19:30" class="bar mf rr"></div>
+                    <div data-time="20:00" class="bar bf ss"></div>
+                    <div data-time="20:30" class="bar mf rr"></div>
+                    <div data-time="21:00" class="bar mf ss"></div>
+                    <div data-time="21:30" class="bar bf ss"></div>
+                    <div data-time="22:00" class="bar mf rr"></div>
+                </div>
+                <div class="time-wrap">
+                    <div class="clock">
+                        <i class="far fa-clock"></i>
+                    </div>
+                    <div class="time-cell"><p class="time-txt">8:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">9:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">10:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">11:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">12:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">13:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">14:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">15:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">16:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">17:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">18:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">19:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">20:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">21:00</p></div>
+                    <div class="time-cell"></div>
+                    <div class="time-cell"><p class="time-txt">22:00</p></div>
+                </div>
+                <div class="legend">
+                    
+                        <div class="dot bez-fronty"></div> <div class="legend-text">bez fronty</div>
+                  
+                        <div class="dot moznost"></div> <div class="legend-text">možnost fronty</div>
+                        <div class="dot cekani"></div> <div class="legend-text">pravděpodobnost čekání ve frontě</div>
+                </div>
+
+        </div>
+
+  
+        <div class="colm-wrap">
+
+            <div class="colm one">
+                <h1>Chceš být naším parťákem?</h1>
+                <p>Měl bys:</p>
+                <ul class="fa-ul">
+                    <li><span class="fa-li">
+                        <i class="fas fa-check fa-lg"></i>
+                        </span>
+                        Žít HTML5 a CSS3. Doslova. 
+                        Tento jazyk Ti občas připadá přirozenější než čeština. 
+                    </li>
+
+                    <li><span class="fa-li">
+                        <i class="fas fa-check fa-lg"></i>
+                        </span>
+                        Znát javaScript
+                    </li>
+                    <li><span class="fa-li">
+                        <i class="fas fa-check fa-lg"></i>
+                        </span>
+                            Nad ES6/7 bys neměl bezradně krčit rameny, ale bezpečně je znát.
+                    </li>
+                    <li><span class="fa-li">
+                        <i class="fas fa-check fa-lg"></i>
+                        </span>
+                        Node.js je tvůj dobrý kamarád, který používáš při buildovani 
+                    </li>
+                    <li><span class="fa-li">
+                        <i class="fas fa-check fa-lg"></i>
+                        </span>
+                        Uvedené technologie tě zajímají ale nemáš s nimi zkušenost? Nevadí stav se k nám na kafe.
+                    </li>
+                  </ul>
+            </div>
+
+            <div class="colm">
+                <h1>Co za to dostaneš?</h1>
+                <p>Budeme si tě hýčkat např.:</p>
+                <ol class="decimal">
+                    <li>
+
+                        Komfortním pracovním prostředím, které je unikátní kombinací kanceláří, tělocvičny, 
+                        odpočinkových prostor a kavárny. U nás se strohé prostředí a nažehlené límečky fakt nenosí.
+
+                    </li>
+
+                    <li>
+
+                        Pestrým koktejlem takových těch typických benefitů jako jsou třeba
+                        stravenková platební karta, Multisport karta, příspěvky na vzdělání, dopravu
+                        a další.
+                    </li>
+                    <li>
+                        možností pořádně si oddychnout. Nejen v našich relaxačních 
+                        prostorech, ale třeba na pláži v exotice. Díky 5 týdnům placené
+                        dovolené.
+                        
+                    </li>
+                    <li>
+
+                      Inspirativním prostředím plným zajímavých lidí, které stojí za to poznat.
+                      Organizujeme pravidelné TechLunche, kdy nad lahodnou pizzou sdílíme naše 
+                      nové poznatky a vědomosti.
+
+                    </li>
+                    <li>
+
+                        A hlavně...svobodu!!! Budeme rádi, pokud s námi v budeš v
+                        kanceláři, ale rozumíme tomu, že někdy budeš chtít pracovat i
+                        od jinud. Zároveň chápeme, že každému z nás vyhovuje jiná pracovní
+                        doba a zažízení, na kterém pracuje. Pojďme se pobavit o tvých preferencích,
+                        určitě se domluvíme.
+                    </li>
+                  </ol>
+            </div>
+
+        </div>
+</div>
+
+
+
+    <div class="ref-cont">
+        <div class="ref">
+            
+
+            <div class="card-text">
+                <h2>Sdílení vědomostí</h2>
+                <p>
+                    Inspirativní prostředí plné zajímavých lidí,
+                    které stojí za to poznat. Organizujeme
+                    pravidelně TechLunche, kdy nad lahodnou
+                    pizzou sdílíme naše nové poznatky a vědomosti.
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="f-left">11. ledna</p>
+                <p class="f-right">#Etnplesk</p>
+            </div>
+        </div>
+
+        <div class="ref black">
+            
+            <div class="card-text">
+            <h2>
+                <p>
+                    O lidi se někdy staríme víc než o klienty</h2>
+                    Komfortní pracovní prostředí, které je unikátní
+                    kombinací kanceláří, tělocvičny, odpočinkových 
+                    prostor a kavárny. U nás se strohé prostředí a 
+                    nažehlené límečky fakt nenosí.
+                </p> 
+            </div>
+            <div class="card-footer">
+                <p class="f-left">12. ledna</p>
+                <p class="f-right">#Etnplesk</p>
+            </div>
+        </div>
+
+        <div class="ref">   
+            <div class="card-text">
+                <h2>Jaké u nás dostaneš benefity?</h2>
+                <p>
+                    Pestrým koktejlem takových těch typických benefitů 
+                    jako je třeba příspěvek na stravování, Multisport karta, 6 týdnů volna, 
+                    příspěvky na vzdělání, dopravu, nebo penzijní pojištění.
+                </p>
+            </div>
+            <div class="card-footer">
+                <p class="f-left">12. ledna</p>
+                <p class="f-right">#Etnplesk</p>
+            </div>
+        </div>
+    
+    </div>
+
+        <div class="footer">
+            <p class="etn-color">COPIRIGHT</p>
+            <p>Ⓒ 2019 ETNETERA</p>
+            <p>Jsem hrdým členem <span class="etn-color">Etnetera Group</span></p>
+            
+        </div>
+
+        <div onclick="showModal()" id="envelope"><i class="far fa-envelope fa-lg"></i></div>
+
+        <div  id="modal">
+            <i onclick="showModal()" class="fas fa-times fa-lg"></i>
+
+            <h3>Dostavejte clanky do vasi primo do vasi emailove schranky</h3>
+
+            <form>
+                <label>Vaše emailová adresa</label>
+                <input class="email-input" type="text">
+                <input class="submit-btn" type="submit" value="Submit">
+            </form>
+            <p class="podminky"> 
+                Podmínky zpracování osobních údajů ( „Podmínky“) 
+                poskytují informace o shromažďování, zaznamenání, používání
+                a jiné zpracování osobních údajů společnosti 
+                Etnetera a.s. se sídlem Jankovcova 1037/49 170 00 Praha 7,
+                IČO: 25103814, zapsána u MS Praha, sp.zn. B 11168, jakožto správcem
+                osobnách údajů.            
+            </p>
+        </div>
+
+
+
+<script src="home.js"></script>
+</body>
+</html>
